@@ -20,7 +20,7 @@ contextInfo: { externalAdReply :{
                         description: 'anu',
                         title: `A PUTRA🎧 : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `Join Ngab`,          previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jbHnwDr/20221218-011857.jpg`)).buffer(),
+                        thumbnail: await (await fetch(`https://i.ibb.co/W25wKFB/y.jpg`)).buffer(),
                         sourceUrl: 'https://chat.whatsapp.com/F9St301rfmhE7xOFBKmvG2'
                       }}
 })
