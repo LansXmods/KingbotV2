@@ -201,11 +201,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} ▮𝗦𝘁𝗮𝘁𝘂𝘀 」 ${htka}`,
 	rows: [
-	    {title: `📛)ഒ Info Bot`, rowId: ".botinfo", description: "✧ Info nya NexBotz ><"},
+	    {title: `📛)ഒ Info Bot`, rowId: ".botinfo", description: "✧ Info nya KingBotV2 🗿"},
 	    {title: `💌)ഒ Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
             {title: `🗣)ഒ Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
             {title: `📊)ഒ Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
-	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 NexBotz..."},
+	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤..."},
 	]
     },{
 	title: `${htki} ▮𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 」 ${htka}`,
@@ -228,7 +228,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `⫹🐚 › 𐐪-〚 Kerang 〛-𐑂`, rowId: ".? kerangajaib", description: "╰► Mau tanya apa sih bg?..."},
 	{title: `⫹📑 › 𐐪-〚 Quotes 〛-𐑂`, rowId: ".? quotes", description: "╰► Ada yg mau nyari topik nih... >-<"},
 	{title: `⫹⛩️ › 𐐪-〚 Anime 〛-𐑂`, rowId: ".? anime", description: "╰► Lah, Wibuu...-𐑂"},
-	{title: `⫹🔞 › 𐐪-〚 Nsfw 〛-𐑂`, rowId: ".? nsfw", description: "╰► Anak kecil ga boleh ya...."},
+	{title: `⫹🔞 › 𐐪-〚 Nsfw 〛-𐑂`, rowId: ".? nsfw", description: "╰► ngapain bwanh?🗿...."},
 	{title: `⫹📚 › 𐐪-〚 Edukasi 〛-𐑂`, rowId: ".? edukasi", description: "╰► Belajar edukasi dari fitur bot..."},
 	{title: `⫹🌟 › 𐐪-〚 Premium 〛-𐑂`, rowId: ".? premium", description: "╰► Hanya khusus users premium..."},
 	{title: `⫹🎭 › 𐐪-〚 Anonymous chat 〛-𐑂`, rowId: ".? anonymous", description: "╰► Mau ngomong sama mantan kah? >.<"},
@@ -292,7 +292,7 @@ let tek = `    ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫ 
     ◉  𝙊𝙨 𝙋𝙡𝙖𝙩𝙛𝙧𝙤𝙢 : *${os.platform()}*`
 const listMessage = {
   text: tek,
-  footer: '© PutraModz | ALL RESERVED',
+  footer: '© LansTamvan | Milik Tata♡',
   mentions: await conn.parseMention(tek),
   title: ``,
   buttonText: `LIST MENU`,
@@ -585,12 +585,12 @@ function _0x1766() {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By PutraModz',
+            footer: titlebot + '\n⚡ Supported By LansTamvan',
             templateButtons: [
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
+                        url: 'https://chat.whatsapp.com/F9St301rfmhE7xOFBKmvG2'
                     }
                 },
                 {
