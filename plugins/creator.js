@@ -20,19 +20,19 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : PutraModz 
-${htjava} *✉️ Nama RL* : PUTRA
+${htjava} *💌 Nama* : LansMods 
+${htjava} *✉️ Nama RL* : Maulana
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
 ${htjava} *🎨 Umur* : PRIVATE
 ${htjava} *🧮 Kelas* : PRIVATE
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP
+${htjava} *🧩 Hobby* : COODING 
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Jawa Barat, Kuningan 
-${htjava} *❤️ Waifu* : Amelia Putri septiany
+${htjava} *🗺️ Tinggal* : Jawa Barat, Bekasi 
+${htjava} *❤️ Waifu* : thalita Putri 
 
-${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
+${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : lans.xys
 •·––––––––––––––––––––––––––·•
 `
   let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
@@ -47,8 +47,8 @@ const sections = [
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".donasi"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	{title: "🔖 • Sewabot", rowId: ".sewa"},
+	{title: "🌟 • Upgrade premium", rowId: ".premium"},
 	]
   },
 ]
@@ -57,7 +57,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "Click Disinj !",
   sections
 }
 
@@ -72,7 +72,7 @@ const listMessage = {
           //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
 
           conn.sendButton(m.chat, teksbio, wm, ppown, [
-                ['Sewa Bot', `${usedPrefix}sewa`],
+                ['SewaBot', `${usedPrefix}sewa`],
                 ['Menu', `${usedPrefix}menu`]
             ], m)
             break
